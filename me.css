@@ -36,8 +36,10 @@ h1 {
 
 .favs {
 	display: flex;
-	margin-bottom: 10px;
 	overflow: hidden;
+
+	padding-top: 25px;
+	margin-top: 25px;
 
 	background: #131111;
 	flex-direction: row;
