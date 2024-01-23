@@ -31,3 +31,59 @@
   <p>Fav anime</p>
 </div>
 </footer>
+
+********************************************************
+
+@font-face {
+    font-family: "blacks";
+    src: url(./Ns.ttf);
+}
+body { color: #4093db;
+       background:  #2b252c;
+       margin: auto;
+       max-width: 820px;
+       font-family: "blacks";
+}
+h1 {
+    text-align: center;  
+    margin: 2cap; 
+}
+h2 {
+    text-align: center;
+}
+ h3 {
+    text-align: center;
+}
+ img{
+    border-radius: 40%;
+    box-shadow: 0 0px 50px #000000;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+}
+h4{
+    text-align: center;
+    size: 10cap;
+}
+footer {
+    background: #131111;
+    text-align: center;
+    margin: auto;
+}
+
+.favs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+p {
+    text-align: center; 
+    font-size: 18px; 
+    color: #6c748f; 
+    margin-top: 10px; 
+  }
